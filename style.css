@@ -1,0 +1,58 @@
+
+.box {
+    background-image: url("back-1.1.png");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+}
+.boom-1 {
+    padding: 10px 20px; font-weight: bold; color:  rgb(14, 86, 114); background-color: white; border: none;
+}
+.boom-2 {
+    padding: 10px 20px; font-weight: bold; color:  rgb(14, 86, 114);  background-color: white; border: none;
+}
+.boom-1:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.boom-2:hover {
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+}
+.box-2 {
+    background-image: url("back-1.png");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+}
+.box-3 {
+    background-image: url("back-3.png");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+}
+
+.five-con {
+    background-image: url("T-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    position: relative;
+    overflow: hidden;
+
+}
+.five-con:before {
+   content: '';
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.495);
+}
+
+.box-7 img:hover {
+    transition: 2s ease-in-out;
+    transform: scale(1.2);
+}
